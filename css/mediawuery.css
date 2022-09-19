@@ -33,3 +33,18 @@
         width: calc(100% / 3 * 2 - 1.5rem / 2);
     }
 }
+
+/* MAIN */
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .section-planning .container {
+        width: 60%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .section-planning .strategic {
+        margin-right: 1.5em;
+    }
+
+}

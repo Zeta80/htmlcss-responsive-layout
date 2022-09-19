@@ -80,10 +80,30 @@ main {
     margin-top: 6em;
 }
 
+/* CARDS ABOUT */
 .cards {
     margin-bottom: 1em;
     /* DEBUG */
     border: 1px solid red;
+}
+
+/* SECTION PLANNING/APP */
+.section-planning .container {
+    padding-top: 3em;
+}
+
+.section-planning {
+    background-color: var(--secondary-col);
+}
+
+.strategic,
+.cont-app-planning {
+    margin-bottom: 2em;
+}
+
+.cont-app-planning {
+    background-color: white;
+    border-radius: 50px;
 }
 
 /* #endregion MAIN */
