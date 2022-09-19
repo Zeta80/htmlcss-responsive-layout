@@ -57,7 +57,8 @@ header {
     z-index: 9999;
 }
 
-header .container {
+header .container,
+main .container {
     margin: 0;
     padding: 0.5em 1.5em;
 }
@@ -71,3 +72,24 @@ header .container {
 }
 
 /* #endregion HEADER */
+
+
+
+/* #region MAIN */
+main {
+    margin-top: 6em;
+}
+
+.cards {
+    margin-bottom: 1em;
+    /* DEBUG */
+    border: 1px solid red;
+}
+
+/* #endregion MAIN */
+
+
+
+
+/* #region FOOTER */
+/* #endregion FOOTER */
