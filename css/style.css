@@ -33,6 +33,7 @@ a {
     --primary-col-light: #b5ddff;
     --secondary-col: #9792e4;
     --secondary-col-light: #d5d4f4;
+    --background-footer: #333333;
 }
 
 .flex {
@@ -150,11 +151,24 @@ main {
     overflow: hidden;
 }
 
+/* SECTION GET STARTED */
+.section-get-started {
+    background-color: var(--secondary-col);
+    margin-top: 1.5em;
+    padding-bottom: 3em;
+}
 
 /* #endregion MAIN */
 
-
-
-
 /* #region FOOTER */
+footer {
+    background-color: var(--background-footer);
+    min-height: 200px;
+}
+
+footer .text {
+    padding-top: 2em;
+    text-align: center;
+}
+
 /* #endregion FOOTER */

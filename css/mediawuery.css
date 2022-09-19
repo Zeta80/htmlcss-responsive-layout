@@ -139,3 +139,38 @@
         width: 70%;
     }
 }
+
+/* MAIN */
+/* GET STARTED */
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .section-get-started .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .section-get-started .container {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+/* FOOTER */
+/* TABLET */
+@media screen and (min-width: 768px) {
+    footer .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    footer .container {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
