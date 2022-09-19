@@ -17,6 +17,7 @@
 }
 
 /* MAIN */
+/* CARDS ABOUT */
 /* TABLET */
 @media screen and (min-width: 768px) {
     .row {
@@ -32,9 +33,21 @@
     .row .cards:first-child {
         width: calc(100% / 3 * 2 - 1.5rem / 2);
     }
+
 }
 
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+    .cont-cards {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+
 /* MAIN */
+/* SECTION PLANNING */
 /* DESKTOP */
 @media screen and (min-width: 992px) {
     .section-planning .container {
@@ -47,4 +60,18 @@
         margin-right: 1.5em;
     }
 
+}
+
+/* MAIN */
+/* PARTNERS */
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .section-partners .cards:not(:first-child) {
+        flex-direction: row;
+    }
+
+    .section-partners .container {
+        margin: 0 auto;
+        width: 70%;
+    }
 }
