@@ -17,6 +17,15 @@ body {
     line-height: 1.2rem;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* COMMON */
 :root {
     /* PALETTE */
@@ -26,14 +35,39 @@ body {
     --secondary-col-light: #d5d4f4;
 }
 
+.flex {
+    display: flex;
+}
+
+.space-beetween {
+    justify-content: space-between;
+}
+
+.center {
+    align-items: center;
+}
+
 /* #region HEADER */
 header {
     background-color: var(--primary-col);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
 }
 
 header .container {
     margin: 0;
-    padding: 0.5em 1em;
+    padding: 0.5em 1.5em;
+}
+
+.header-menu {
+    display: none;
+}
+
+.header-menu li {
+    padding-left: 1em;
 }
 
 /* #endregion HEADER */

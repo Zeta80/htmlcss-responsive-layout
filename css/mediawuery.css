@@ -1,0 +1,10 @@
+/* HEADER */
+@media screen and (min-width: 992px) {
+    header .fa-solid {
+        display: none;
+    }
+
+    header .header-menu {
+        display: block;
+    }
+}
