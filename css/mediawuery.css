@@ -1,7 +1,7 @@
 /* HEADER */
 /* TABLET/DESKTOP */
 @media screen and (min-width: 992px) {
-    header .container {
+    .container {
         margin: 0 auto;
         width: 70%;
         max-width: 900px;
@@ -69,9 +69,73 @@
     .section-partners .cards:not(:first-child) {
         flex-direction: row;
     }
+}
 
+@media screen and (min-width: 992px) {
     .section-partners .container {
         margin: 0 auto;
+        width: 70%;
+    }
+
+}
+
+/* MAIN */
+/* BENEFITS */
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .section-benefits .cont-bene-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .section-benefits .cards {
+        width: calc(100% / 2 - 1em);
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .section-benefits .cards {
+        width: calc(100% / 3 - 1em);
+    }
+}
+
+/* MAIN */
+/* ABOUT-US */
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .section-about-us .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section-about-us .text {
+        width: 60%;
+        margin-right: 2em;
+    }
+
+    .section-about-us .img-linkedin {
+        width: 40%;
+    }
+
+    .section-about-us .img {
+        width: 60%;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .section-about-us .text {
+        width: 70%;
+        margin-right: 2em;
+    }
+
+    .section-about-us .img-linkedin {
+        width: 30%;
+    }
+
+    .section-about-us .img {
         width: 70%;
     }
 }

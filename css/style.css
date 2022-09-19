@@ -130,6 +130,26 @@ main {
     overflow: hidden;
 }
 
+/* SECTION BENEFITS */
+.section-benefits {
+    background-color: var(--secondary-col);
+    margin: 2em 0;
+}
+
+.section-benefits .cards {
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+/* SECTION ABOUT-US */
+
+.section-about-us .img {
+    width: 30%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 
 /* #endregion MAIN */
 
