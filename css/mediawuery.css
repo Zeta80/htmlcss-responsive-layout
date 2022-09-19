@@ -1,5 +1,11 @@
 /* HEADER */
 @media screen and (min-width: 992px) {
+    header .container {
+        margin: 0 auto;
+        width: 70%;
+        max-width: 900px;
+    }
+
     header .fa-solid {
         display: none;
     }
