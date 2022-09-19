@@ -1,0 +1,39 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    line-height: 1.2rem;
+}
+
+/* COMMON */
+:root {
+    /* PALETTE */
+    --primary-col: #0084fd;
+    --primary-col-light: #b5ddff;
+    --secondary-col: #9792e4;
+    --secondary-col-light: #d5d4f4;
+}
+
+/* #region HEADER */
+header {
+    background-color: var(--primary-col);
+}
+
+header .container {
+    margin: 0;
+    padding: 0.5em 1em;
+}
+
+/* #endregion HEADER */
