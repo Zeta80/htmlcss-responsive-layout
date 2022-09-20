@@ -34,6 +34,7 @@ a {
     --secondary-col: #9792e4;
     --secondary-col-light: #d5d4f4;
     --background-footer: #333333;
+    --font-color: hsl(208deg 17% 43%);
 }
 
 .flex {
@@ -82,9 +83,25 @@ main {
 
 /* CARDS ABOUT */
 .cards {
+    border-radius: 10px;
     margin-bottom: 1em;
-    /* DEBUG */
-    border: 1px solid red;
+}
+
+.cont-cards .cards {
+    background-color: var(--primary-col-light);
+    color: var(--font-color);
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.cont-cards h3 {
+    margin-bottom: 1.5em;
+    font-size: 1.2rem;
+    color: var(--primary-col);
+}
+
+.cont-cards .img {
+    width: 50%;
 }
 
 /* SECTION PLANNING/APP */
@@ -124,7 +141,7 @@ main {
     background-color: var(--secondary-col);
 }
 
-.cards .img {
+.section-partners .cards .img {
     width: 90%;
     /* DEBUG */
     border-radius: 50%;

@@ -148,6 +148,16 @@
         width: 90%;
         margin: 0 auto;
     }
+
+    .cont-cards .text {
+        padding: 1.5em;
+    }
+
+    .cont-cards .img {
+        width: 40%;
+    }
+
+
 }
 
 /* DESKTOP */
@@ -156,6 +166,20 @@
         width: 50%;
         margin: 0 auto;
     }
+
+    .cont-cards .cards:first-child {
+        display: flex;
+    }
+
+    .cont-cards .text.text-apple {
+        width: 60%;
+        padding: 1.5em;
+    }
+
+    .cont-cards .img {
+        width: 40%;
+    }
+
 }
 
 /* FOOTER */
