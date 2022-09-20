@@ -127,6 +127,10 @@
     .section-benefits .cards {
         width: calc(100% / 2 - 1em);
     }
+
+    .section-benefits .number {
+        font-size: 3rem;
+    }
 }
 
 /* DESKTOP */

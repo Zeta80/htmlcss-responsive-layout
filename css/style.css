@@ -223,12 +223,44 @@ main {
     margin: 2em 0;
 }
 
+.section-benefits h3:first-child {
+    font-size: 2.2rem;
+    padding: 1.2em 0;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+}
+
 .section-benefits .cards {
     background-color: white;
     border-radius: 20px;
     padding: 1.5em;
 }
 
+.section-benefits .number {
+    font-size: 2rem;
+    padding-bottom: 40px;
+    color: var(--secondary-col);
+}
+
+.section-benefits .subtitle {
+    font-size: 1.2rem;
+    padding-bottom: 1em;
+    color: var(--secondary-col);
+}
+
+.section-benefits p {
+    margin-bottom: 1.5em;
+}
+
+.btn-benefits {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.3rem 1.4rem;
+    background-color: var(--secondary-col);
+    color: white;
+    border-radius: 30px;
+}
 
 /* SECTION ABOUT-US */
 
