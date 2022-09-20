@@ -36,6 +36,7 @@ a {
     --secondary-col-light: #d5d4f4;
     --background-footer: #333333;
     --font-color: hsl(208deg 17% 43%);
+    --color-itsfree: hsl(37.2, 97.5%, 68.2%);
 }
 
 .flex {
@@ -305,6 +306,33 @@ main {
     background-color: var(--secondary-col);
     margin-top: 1.5em;
     padding-bottom: 3em;
+    text-align: center;
+    color: white;
+}
+
+.section-get-started h1 {
+    color: var(--color-itsfree);
+    font-size: 3rem;
+}
+
+.section-get-started p {
+    margin: 1.2em 0;
+}
+
+.section-get-started .btn {
+    background-color: white;
+    color: var(--secondary-col);
+    padding: 1rem 1.3rem;
+}
+
+.section-get-started ul {
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.section-get-started ul li:not(:first-child) {
+    list-style-type: disc;
+    margin-left: 2em;
 }
 
 /* #endregion MAIN */
@@ -318,6 +346,12 @@ footer {
 footer .text {
     padding-top: 2em;
     text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: underline;
+    color: var(--secondary-col-light);
 }
 
 /* #endregion FOOTER */
