@@ -178,6 +178,23 @@ main {
     margin-bottom: 1.5em;
 }
 
+.section-partners h2 {
+    font-size: 1.6em;
+    color: var(--secondary-col);
+    padding: 1em 0;
+}
+
+.section-partners .cards p:last-child {
+    padding: 1em 0;
+    font-size: 1.3rem;
+}
+
+.section-partners .cards span:last-child {
+    position: relative;
+    top: 30px;
+    font-size: 1.5rem;
+}
+
 .section-partners .cards {
     flex-direction: column;
     align-items: center;
@@ -188,6 +205,7 @@ main {
 .section-partners .cards:not(:first-child) {
     border-radius: 15px;
     background-color: var(--secondary-col);
+    color: white;
 }
 
 .section-partners .cards .img img {
