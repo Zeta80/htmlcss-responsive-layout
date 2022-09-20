@@ -49,6 +49,14 @@ a {
     align-items: center;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 /* #region HEADER */
 header {
     background-color: var(--primary-col);
@@ -176,10 +184,19 @@ main {
 
 /* SECTION ABOUT-US */
 
-.section-about-us .img {
-    width: 30%;
+.section-about-us .img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.img-linkedin figure {
+    top: 0;
+    left: 80px;
+    font-size: 2rem;
+    color: var(--secondary-col);
 }
 
 /* SECTION GET STARTED */

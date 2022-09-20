@@ -146,8 +146,14 @@
         width: 40%;
     }
 
-    .section-about-us .img {
-        width: 60%;
+    .section-about-us .img-linkedin img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .section-about-us .img-linkedin figure {
+        left: 160px;
+        font-size: 4rem;
     }
 }
 
@@ -162,9 +168,9 @@
         width: 30%;
     }
 
-    .section-about-us .img {
+    /* .section-about-us .img {
         width: 70%;
-    }
+    } */
 }
 
 /* MAIN */
