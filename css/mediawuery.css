@@ -88,6 +88,15 @@
     .section-partners .cards:not(:first-child) {
         flex-direction: row;
     }
+
+    .section-partners .cards .img {
+        width: 30%;
+    }
+
+    .section-partners .cards p {
+        width: 70%;
+
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -95,7 +104,6 @@
         margin: 0 auto;
         width: 70%;
     }
-
 }
 
 /* MAIN */
