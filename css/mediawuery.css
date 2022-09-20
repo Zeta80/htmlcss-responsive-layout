@@ -34,6 +34,10 @@
         width: calc(100% / 3 * 2 - 1.5rem / 2);
     }
 
+    .row .img {
+        margin: 0 auto;
+    }
+
 }
 
 /* DESKTOP */
@@ -42,6 +46,10 @@
     .cont-cards {
         width: 70%;
         margin: 0 auto;
+    }
+
+    .row .img {
+        align-self: flex-end;
     }
 }
 
