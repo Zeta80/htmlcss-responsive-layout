@@ -110,17 +110,24 @@ main {
     background-color: var(--primary-col-light);
     color: var(--font-color);
     text-align: center;
-    padding: 1.5em 0;
+    padding-top: 30px;
 }
 
 .cont-cards h3 {
     margin-bottom: 1.5em;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--primary-col);
+}
+
+.cont-cards i {
+    color: var(--primary-col);
+    font-size: 3rem;
+    padding-bottom: 30px;
 }
 
 .cont-cards .img {
     width: 50%;
+    margin: 0 auto;
 }
 
 /* SECTION PLANNING/APP */
@@ -133,14 +140,26 @@ main {
     font-size: 2rem;
 }
 
+.section-planning h3 {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.section-planning .cont-app-planning p {
+    font-style: italic;
+}
+
+
 .section-planning .cont-app-planning {
     text-align: center;
     padding-bottom: 3em;
+    color: black;
 }
 
 .section-planning {
     background-color: var(--secondary-col);
     text-align: start;
+    color: white;
 }
 
 .strategic,
