@@ -109,8 +109,19 @@ main {
     padding-top: 3em;
 }
 
+.section-planning h2 {
+    padding: 2em 0;
+    font-size: 2rem;
+}
+
+.section-planning .cont-app-planning {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
 .section-planning {
     background-color: var(--secondary-col);
+    text-align: start;
 }
 
 .strategic,
